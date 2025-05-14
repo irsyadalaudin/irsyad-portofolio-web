@@ -1,6 +1,6 @@
 const Home = () => {
     return (
-            <div className='flex h-90'>
+            <div className='flex items-center h-90'>
                 <div className='w-2/3'>
                     <h1>Hi I'm Irsyad Alaudin Hariono</h1>
                     <h3>I'm Fullstack Javascript MERN developer</h3>
