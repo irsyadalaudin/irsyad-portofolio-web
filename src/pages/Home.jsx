@@ -1,15 +1,26 @@
 const Home = () => {
     return (
-            <div className='flex items-center h-90'>
-                <div className='w-2/3'>
-                    <h1>Hi I'm Irsyad Alaudin Hariono</h1>
-                    <h3>I'm Fullstack Javascript MERN developer</h3>
-                    <p>I'm passionate Frontend & FUllstack Developer with a strong foundation in building modern web application. I specialize in using technologies like React js, Node.js, and MongoDB to create dynamic and responsive websites. With a keen eye for design and a focus on user experience, I strive to deliver clean, maintainable code that scalse with our project's needs. Let's build something amazing together!</p>
-                </div>
-                <div className='w-1/3'>
-                    <img src='abc' alt='photos' />
+        <div className='h-90 flex flex-col md:flex-row items-center justify-between gap-8 px-8 '>
+            <div className='md:w-2/3 space-y-6'>
+                <h1 className='text-4xl md:text-5xl font-bold leading-tight text-gray-800'>
+                    Hi, I'm <span className='text-indigo-600'>Irsyad Alaudin Hariono</span>
+                </h1>
+                <h2 className='text-2xl text-gray-600'>
+                    Fullstack JavaScript Developer (MERN)
+                </h2>
+                <p className='text-gray-500 text-lg leading-relaxed'>
+                    A passionate Front-End & Fullstack Developer with experience in React.js, Node.js, and MongoDB. I build responsive, user-focused web apps with clean, scalable code, turning ideas into seamless web apps.
+                </p>
+                <div className='mt-4'>
+                    <a href='#Projects' className='px-6 py-3 bg-indigo-600 text-white rounded-xl hover:bg-indigo-700 transition'>
+                        View Projects
+                    </a>
                 </div>
             </div>
+            <div className='md:w-1/3'>
+                <img src='/my-photo.jpg' alt='Irsyad Alaudin Hariono' className='rounded-full w-60 h-60 object-cover sadow-lg' />
+            </div>
+        </div>
     )
 }
 
