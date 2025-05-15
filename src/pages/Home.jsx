@@ -1,6 +1,6 @@
 const Home = () => {
     return (
-        <div className='h-90 flex flex-col md:flex-row items-center justify-between gap-8 px-8 '>
+        <section className='h-90 flex flex-col md:flex-row items-center justify-between gap-8 px-8 '>
             <div className='md:w-2/3 space-y-6'>
                 <h1 className='text-4xl md:text-5xl font-bold leading-tight text-gray-800'>
                     Hi, I'm <span className='text-indigo-600'>Irsyad Alaudin Hariono</span>
@@ -20,7 +20,7 @@ const Home = () => {
             <div className='md:w-1/3'>
                 <img src='/my-photo.jpg' alt='Irsyad Alaudin Hariono' className='rounded-full w-60 h-60 object-cover sadow-lg' />
             </div>
-        </div>
+        </section>
     )
 }
 
