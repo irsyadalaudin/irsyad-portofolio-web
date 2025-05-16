@@ -1,7 +1,7 @@
 const AboutMe = () => {
     return (
         <section id='aboutMe' className='h-100 px-8 flex items-center text-gray-800'>
-            <div className='flex-col max-w-4xl mx-auto space-y-6'>
+            <div className='max-w-4xl mx-auto space-y-6'>
                 <h1 className='text-3xl font-bold border-b-2 border-indigo-500 inline-block pb-2'>
                     ABOUT ME
                 </h1>
