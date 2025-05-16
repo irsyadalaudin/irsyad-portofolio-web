@@ -10,9 +10,7 @@ const TechStack = () => {
                 </h1>
 
                 <div className='grid grid-cols-2 md:grid-cols-3 gap-6 mt-8 text-center'>
-                {/* <div className='flex flex-wrap justify-center gap-6 mt-8 text-center'> */}
                     <div className='py-4 px-6 bg-white shadow rounded-xl'>
-                        {/* <p className='text-4xl font-bold text-yellow-400 mx-auto'>JS</p> */}
                         <SiJavascript className='text-4xl text-yellow-400 mx-auto' />
                         <p className='mt-2 font-semibold'>Javascript</p>
                     </div>
@@ -38,23 +36,6 @@ const TechStack = () => {
                         <p></p>
                     </div>
                 </div>
-                {/* <h3>My main stack is the MERN stack:</h3>
-                <ul>
-                    <li>React.js</li>
-                    <li>Node.js</li>
-                    <li>Express.js</li>
-                    <li>MongoDB</li>
-                </ul>
-                <br />
-                <h3>I also have experience with:</h3>
-                <ul>
-                    <li>Redux</li>
-                    <li>React Router</li>
-                    <li>Mongoose</li>
-                    <li>REST API</li>
-                    <li>Vite</li>
-                    <li>Git & Github</li>
-                </ul> */}
             </div>
         </section>
     )
