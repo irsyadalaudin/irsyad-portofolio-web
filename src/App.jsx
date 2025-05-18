@@ -6,9 +6,15 @@ import Home from './pages/Home'
 const App = () => {
 	return (
 		<>
-			<Home />
-			<TechStack />
-			<AboutMe />
+			{/* <nav></nav> */}
+			<header>
+				<Home />
+			</header>
+			<main>
+				<TechStack />
+				<AboutMe />
+			</main>
+			{/* <footer></footer> */}
 		</>
 	)
 }
