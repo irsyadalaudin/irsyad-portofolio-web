@@ -4,7 +4,7 @@ import { SiJavascript } from 'react-icons/si'
 const TechStack = () => {
     return (
         <section id='techStack' className='h-100 flex items-center px-8 bg-gray-50 text-gray-800'>
-            <div className='max-w-4xl mx-auto space-y-6'>
+            <div className='max-w-5xl mx-auto space-y-6'>
                 <h1 className='pb-2 text-3xl font-bold border-b-2 border-indigo-500 inline-block'>
                     MY TECH STACK
                 </h1>
