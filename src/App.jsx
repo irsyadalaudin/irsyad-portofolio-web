@@ -9,7 +9,6 @@ const App = () => {
 		<>
 			<Home />
 			<TechStack />
-			{/* <Projects /> */}
 			<AboutMe />
 		</>
 	)
