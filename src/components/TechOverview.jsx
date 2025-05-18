@@ -1,7 +1,7 @@
 import { FaDatabase, FaGitAlt, FaNodeJs, FaReact } from 'react-icons/fa'
 import { SiJavascript } from 'react-icons/si'
 
-const TechStack = () => {
+const TechOverview = () => {
         const projectList = [
         {
             image: 'image',
@@ -88,4 +88,4 @@ const TechStack = () => {
     )
 }
 
-export default TechStack
+export default TechOverview

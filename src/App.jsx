@@ -1,6 +1,6 @@
 import './App.css'
 import AboutMe from './components/AboutMe'
-import TechStack from './components/TechStack'
+import TechOverview from './components/TechOverview'
 import Home from './pages/Home'
 
 const App = () => {
@@ -11,7 +11,7 @@ const App = () => {
 				<Home />
 			</header>
 			<main>
-				<TechStack />
+				<TechOverview />
 				<AboutMe />
 			</main>
 			{/* <footer></footer> */}
