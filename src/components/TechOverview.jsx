@@ -68,7 +68,7 @@ const TechOverview = () => {
                         {projectList.map((project, index) => (
                             <div key={index} className='border rounded-xl py-6 px-16 shadow hover:shadow-lg transition'>
                                 <img src={project.image} alt='image' className='border-indigo-500' />
-                                <h3 className='text-xl font-semibold mb-2'>{project.title}</h3>
+                                <h3 className='text-xl font-semibold px-2 mb-2'>{project.title}</h3>
                                 <div className='flex gap-4'>
                                     <a href={project.netlify} target='_blank' rel='noreferrer' className=' text-indigo-600 hover:underline'>
                                         Live Demo
