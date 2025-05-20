@@ -12,7 +12,7 @@ const AboutMe = () => {
             year: '2023 - 2024',
             role: 'Kitchen Staff',
             place: 'Heba Resto, Cairo, Egypt',
-            description: 'Worked part time in a busy restaurnat environment, managung food preparation, customer service, and coordination with the kitchen team. Maintained high hyguene and service standarts under pressure'
+            description: 'Worked part time in a busy restaurnat environment, managing food preparation, customer service, and coordination with the kitchen team. Maintained high hyguene and service standarts under pressure'
         },
         {
             year: '2022',
@@ -24,7 +24,7 @@ const AboutMe = () => {
             year: '2019-2020',
             role: 'Community Teacher',
             place: 'Islamic Boarding School, Batu, Malang',
-            description: 'Volunteered as teachier, delivering religious and general education classes to students. Developed learning materials and mentored students academycally and personally'
+            description: 'Volunteered as teacher, delivering religious and general education classes to students. Developed learning materials and mentored students academycally and personally'
         }
     ]
 
