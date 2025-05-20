@@ -29,9 +29,8 @@ const TechOverview = () => {
             <section id='techStack' className='flex items-center px-8 text-gray-800'>
                 <div className='max-w-5xl mx-auto space-y-6'>
                     <h1 className='pb-2 text-3xl font-bold border-b-2 border-indigo-500 inline-block'>
-                        MY TECH STACK
+                        MY TECH OVERVIEW
                     </h1>
-
                     <div className='grid grid-cols-2 md:grid-cols-3 gap-6 mt-8 text-center'>
                         <div className='py-4 px-6 bg-white shadow rounded-xl'>
                             <SiJavascript className='text-4xl text-yellow-400 mx-auto' />
@@ -61,7 +60,7 @@ const TechOverview = () => {
                     </div>
                 </div>
             </section>
-            <section id='projects' className='flex items-center'>
+            <section id='projects' className='flex items-center px-8 text-gray'>
                 <div className='max-w-5xl mx-auto space-y-6'>
                     <h1 className='pb-2 text-3xl font-bold border-b-2 border-indigo-500 inline-block'>
                         PROJECTS
