@@ -41,7 +41,7 @@ const AboutMe = () => {
                     </p>
                 </div>
 
-                <div className='space-y-8'>
+                <div className='space-y-6'>
                     <h1 className='text-3xl font-bold border-b-2 border-indigo-500 inline-block pb-2'>
                         EXPERIENCE
                     </h1>
