@@ -6,22 +6,22 @@ const Contact = () => {
                 <h3 className='text-xl'>Feel free to reach out via email or connect with me on social platforms:</h3>
                 <ul className='space-y-2 text-lg'>
                     <li>Email: 
-                        <a href='irsyadalaudin333@gmail.com' className='text-indigo-600 pl-12'>irsyadalaudin333@gmail.com</a>
+                        <a href='irsyadalaudin333@gmail.com' className='text-indigo-600 pl-13'>irsyadalaudin333@gmail.com</a>
                     </li>
-                    <li>Instagram: 
+                    <li>Instagram:
                         <a href='irsyadaldhr' className='text-indigo-600 pl-2'>irsyadaldhr</a>
                     </li>
-                    <li>Jobstreet: 
-                        <a href='jobstreet' className='text-indigo-600 pl-4'>jobstreet</a>
+                    <li>Jobstreet:
+                        <a href='jobstreet' className='text-indigo-600 pl-5'>jobstreet</a>
                     </li>
-                    <li>Glints: 
-                        <a href='glints' className='text-indigo-600 pl-12'>glints</a>
+                    <li>Glints:
+                        <a href='glints' className='text-indigo-600 pl-13.3'>glints</a>
                     </li>
-                    <li>Github: 
-                        <a href='github' className='text-indigo-600 pl-8'>github</a>
+                    <li>Github:
+                        <a href='github' className='text-indigo-600 pl-10'>github</a>
                     </li>
-                    <li>Gitlab: 
-                        <a href='gitlab' className='text-indigo-600 pl-10'>gitlab</a>
+                    <li>Gitlab:
+                        <a href='gitlab' className='text-indigo-600 pl-12'>gitlab</a>
                     </li>
                 </ul>
             </div>
