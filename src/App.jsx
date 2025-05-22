@@ -1,5 +1,6 @@
 import './App.css'
 import AboutMe from './components/AboutMe'
+import Contact from './components/Contact'
 import TechOverview from './components/TechOverview'
 import Home from './pages/Home'
 
@@ -13,6 +14,7 @@ const App = () => {
 			<main>
 				<TechOverview />
 				<AboutMe />
+				<Contact />
 			</main>
 			{/* <footer></footer> */}
 		</>
