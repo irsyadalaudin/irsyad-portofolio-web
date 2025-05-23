@@ -27,7 +27,6 @@ const AboutMe = () => {
     ]
 
     return (
-        // <div id='aboutMe' className='py-16 px-8 text-gray-800 max-w-5xl mx-auto space-y-12'>
         <div id='aboutMe' className='py-16 px-8 text-gray-800 space-y-12'>
             <section id='aboutMe' className='max-w-5xl mx-auto space-y-6'>
                 <h1 className='text-3xl font-bold border-b-2 border-indigo-500 inline-block pb-2'>
