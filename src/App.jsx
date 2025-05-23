@@ -1,6 +1,7 @@
 import './App.css'
 import AboutMe from './components/AboutMe'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 import TechOverview from './components/TechOverview'
 import Home from './pages/Home'
 
@@ -16,7 +17,9 @@ const App = () => {
 				<AboutMe />
 				<Contact />
 			</main>
-			{/* <footer></footer> */}
+			<footer>
+				<Footer />
+			</footer>
 		</>
 	)
 }
