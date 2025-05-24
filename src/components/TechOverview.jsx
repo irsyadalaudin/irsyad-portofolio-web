@@ -24,9 +24,9 @@ const TechOverview = () => {
     ]
 
     return (
-        <div className='h-screen px-8 flex flex-col justify-center bg-gray-50 space-y-6'>
+        <div className='h-screen px-8 flex flex-col justify-center bg-gray-50 space-y-12'>
             <section id='techStack' className='text-gray-800 max-w-5xl mx-auto space-y-6'>
-                <div className='max-w-5xl mx-auto space-y-6'>
+                {/* <div className='max-w-5xl mx-auto space-y-6'> */}
                     <h1 className='pb-2 text-3xl font-bold border-b-2 border-indigo-500 inline-block'>
                         MY TECH OVERVIEW
                     </h1>
@@ -57,7 +57,7 @@ const TechOverview = () => {
                             <p></p>
                         </div>
                     </div>
-                </div>
+                {/* </div> */}
             </section>
             <section id='projects' className='flex items-center text-gray-800'>
                 <div className='max-w-5xl mx-auto space-y-6'>
