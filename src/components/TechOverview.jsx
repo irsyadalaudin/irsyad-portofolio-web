@@ -60,7 +60,6 @@ const TechOverview = () => {
                 {/* </div> */}
             </section>
             <section id='projects' className='text-gray-800 max-w-5xl mx-auto space-y-6'>
-                {/* <div className='max-w-5xl mx-auto space-y-6'> */}
                     <h1 className='pb-2 text-3xl font-bold border-b-2 border-indigo-500 inline-block'>
                         PROJECTS
                     </h1>
@@ -80,7 +79,6 @@ const TechOverview = () => {
                             </div>
                         ))}
                     </div>
-                {/* </div> */}
             </section>
         </div>
     )
