@@ -2,13 +2,16 @@ import './App.css'
 import AboutMe from './components/AboutMe'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import Navbar from './components/Navbar'
 import TechOverview from './components/TechOverview'
 import Home from './pages/Home'
 
 const App = () => {
 	return (
 		<>
-			{/* <nav></nav> */}
+			<nav>
+				<Navbar />
+			</nav>
 			<header>
 				<Home />
 			</header>
