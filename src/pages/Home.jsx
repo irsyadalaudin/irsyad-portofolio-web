@@ -12,7 +12,7 @@ const Home = () => {
                     A passionate Front-End & Fullstack Developer with experience in React.js, Node.js, and MongoDB. I build responsive, user-focused web apps with clean, scalable code, turning ideas into seamless web apps.
                 </p>
                 <div className='mt-4'>
-                    <a href='#Projects' className='px-6 py-3 bg-indigo-600 text-white rounded-xl hover:bg-indigo-700 transition'>
+                    <a href='#techStack' className='px-6 py-3 bg-indigo-600 text-white rounded-xl hover:bg-indigo-700 transition'>
                         View Projects
                     </a>
                 </div>
