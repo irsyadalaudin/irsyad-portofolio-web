@@ -1,19 +1,32 @@
-const Navbar = () => {
+const Navbar = ({ darkMode, setDarkMode}) => {
 	return (
-		<div className='bg-white shadow-lg fixed top-0 left-0 right-0 z-50'>
+		<div className='shadow-lg fixed top-0 left-0 right-0 z-50 '>
 			<div className='max-w-7xl mx-auto px-8 py-5 flex justify-between items-center'>
-				<h1 className='text-xl font-bold text-indigo-600'>My Portofolio</h1>
-				<ul className='flex space-x-6 text-gray-700 font-medium'>
-					<li>
-						<a href='#aboutMe' className='hover:text-indigo-600 transition'>About Me</a>
-					</li>
-					<li>
-						<a href='#experience' className='hover:text-indigo-600 transition'>Experience</a>
-					</li>
-					<li>
-						<a href='#contact' className='hover:text-indigo-600 transition'>Contact Me</a>
-					</li>
-				</ul>
+				<h1 className='text-xl font-bold text-indigo-600 dark:text-indigo-200'>My Portofolio</h1>
+
+				{/* RIGHT SIDE: nav LINKS + DARK MODE TOGGLE */}
+				<div className='flex items-center space-x-6'>
+					<ul className='flex space-x-6 font-medium text-indigo-600 dark:text-indigo-200'>
+						<li>
+							<a href='#aboutMe' className='text-indigo-600 dark:text-indigo-100 hover:text-indigo-800 dark:hover:text-gray-300 hover:cursor-pointer hover:underline transition'>
+								About Me
+							</a>
+						</li>
+						<li>
+							<a href='#experience' className='text-indigo-600 dark:text-indigo-100 hover:text-indigo-800 dark:hover:text-gray-300 hover:cursor-pointer hover:underline transition'>
+								Experience
+							</a>
+						</li>
+						<li>
+							<a href='#contact' className='text-indigo-600 dark:text-indigo-100 hover:text-indigo-800 dark:hover:text-gray-300 hover:cursor-pointer hover:underline transition'>
+								Contact Me
+							</a>
+						</li>
+					</ul>
+					<button onClick={() => setDarkMode(!darkMode)} className='px-4 py-2 rounded bg-gray-200 dark:bg-gray-800 shadow'>
+						{darkMode ? '☀️' :  '🌙 '}
+					</button>
+				</div>
 			</div>
 		</div>
 	)
