@@ -24,7 +24,7 @@ const TechOverview = () => {
     ]
 
     return (
-        <div className='h-screen px-8 flex flex-col justify-center bg-gray-50 space-y-12'>
+        <div className='h-screen px-8 flex flex-col justify-center space-y-12'>
             <section id='techStack' className='text-gray-800 max-w-5xl mx-auto space-y-6 scroll-mt-28'>
                 <h1 className='pb-2 text-3xl font-bold border-b-2 border-indigo-500 inline-block'>
                     MY TECH OVERVIEW
