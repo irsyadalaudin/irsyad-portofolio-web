@@ -1,6 +1,6 @@
 const Navbar = ({ darkMode, setDarkMode}) => {
 	return (
-		<div className='shadow-lg fixed top-0 left-0 right-0 z-50 '>
+		<div className='bg-white dark:bg-gray-900 text-indigo-600 dark:text-indigo-100 shadow-lg fixed top-0 left-0 right-0 z-50 '>
 			<div className='max-w-7xl mx-auto px-8 py-5 flex justify-between items-center'>
 				<h1 className='text-xl font-bold text-indigo-600 dark:text-indigo-200'>My Portofolio</h1>
 
