@@ -1,6 +1,6 @@
 const Home = () => {
     return (
-        <section className='h-screen px-8 max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8'>
+        <section id='home' className='h-screen px-8 max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8'>
             <div className='md:w-2/3 space-y-6'>
                 <h1 className='text-4xl md:text-5xl font-bold leading-tight text-gray-800'>
                     Hi, I'm <span className='text-indigo-600'>Irsyad Alaudin Hariono</span>

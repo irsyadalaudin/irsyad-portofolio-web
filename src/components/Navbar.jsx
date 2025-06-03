@@ -1,8 +1,36 @@
+import { useEffect } from 'react'
+
 const Navbar = ({ darkMode, setDarkMode}) => {
+	useEffect(() => {
+		const sections = document.querySelectorAll('section[id]')
+
+		const observer = new IntersectionObserver(
+			(entries) => {
+				entries.forEach((entry) => {
+					if (entry.isIntersecting) {
+						const id = entry.target.getAttribute('id')
+						// CHANGE URL WITHOUT RELOADING THE PAGE
+						window.history.replaceState(null, '', `#${id}`)
+					}
+				})
+			},
+			{
+				rootMargin: '-50% 0px -50% 0px',
+				threshold: 0,
+			}
+		)
+		sections.forEach((section) => observer.observe(section))
+		// CLEANUP OBSERVER WHEN COMPONENT IS UNMOUNT
+		return () => sections.forEach((section) => observer.unobserve(section))
+	}, [])
+
 	return (
 		<div className='bg-white dark:bg-gray-900 text-indigo-600 dark:text-indigo-100 shadow-lg fixed top-0 left-0 right-0 z-50 '>
 			<div className='max-w-7xl mx-auto px-8 py-5 flex justify-between items-center'>
-				<h1 className='text-xl font-bold text-indigo-600 dark:text-indigo-200'>My Portofolio</h1>
+				<h1 className='flex items-center'>
+					{/* My Portofolio */}
+					<a href='/' className='text-xl font-bold text-indigo-600 dark:text-indigo-200'>My Portofolio</a>
+				</h1>
 
 				{/* RIGHT SIDE: nav LINKS + DARK MODE TOGGLE */}
 				<div className='flex items-center space-x-6'>
