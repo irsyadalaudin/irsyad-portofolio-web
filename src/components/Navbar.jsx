@@ -36,16 +36,16 @@ const Navbar = ({ darkMode, setDarkMode}) => {
 	}, [])
 
 	return (
-		<div className='bg-white dark:bg-gray-900 text-indigo-600 dark:text-indigo-100 shadow-lg fixed top-0 left-0 right-0 z-50 '>
+		<div className='bg-white dark:bg-indigo-700 text-indigo-600 dark:text-indigo-100 shadow-lg fixed top-0 left-0 right-0 z-50 '>
 			<div className='max-w-7xl mx-auto px-8 py-5 flex justify-between items-center'>
 				<h1 className='flex items-center'>
 					{/* My Portofolio */}
-					<a href='/' className='text-xl font-bold text-indigo-600 dark:text-indigo-200'>My Portofolio</a>
+					<a href='/' className='text-xl font-bold text-indigo-600 dark:text-indigo-200 hover:cursor-pointer hover:underline'>My Portofolio</a>
 				</h1>
 
 				{/* RIGHT SIDE: nav LINKS + DARK MODE TOGGLE */}
 				<div className='flex items-center space-x-6'>
-					<ul className='flex space-x-6 font-medium text-indigo-600 dark:text-indigo-200'>
+					<ul className='flex space-x-6 font-medium'>
 						<li>
 							<a href='#aboutMe' className='text-indigo-600 dark:text-indigo-100 hover:text-indigo-800 dark:hover:text-gray-300 hover:cursor-pointer hover:underline transition'>
 								About Me
@@ -62,7 +62,7 @@ const Navbar = ({ darkMode, setDarkMode}) => {
 							</a>
 						</li>
 					</ul>
-					<button onClick={() => setDarkMode(!darkMode)} className='px-4 py-2 rounded bg-gray-200 dark:bg-gray-800 shadow'>
+					<button onClick={() => setDarkMode(!darkMode)} className='px-4 py-2 rounded bg-gray-800 dark:bg-gray-200 hover:bg-gray-700 dark:hover:bg-gray-300 shadow'>
 						{darkMode ? '☀️' :  '🌙 '}
 					</button>
 				</div>
