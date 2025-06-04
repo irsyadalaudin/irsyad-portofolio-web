@@ -3,14 +3,21 @@ import { useEffect } from 'react'
 const Navbar = ({ darkMode, setDarkMode}) => {
 	useEffect(() => {
 		const sections = document.querySelectorAll('section[id]')
+		let currentSection = ''
 
 		const observer = new IntersectionObserver(
 			(entries) => {
 				entries.forEach((entry) => {
 					if (entry.isIntersecting) {
 						const id = entry.target.getAttribute('id')
-						// CHANGE URL WITHOUT RELOADING THE PAGE
-						window.history.replaceState(null, '', `#${id}`)
+
+						if (id !== currentSection) {
+							currentSection = id
+							const newUrl = id === 'home' ? '/' : `${id}`
+							// CHANGE URL WITHOUT RELOADING THE PAGE
+							// window.history.replaceState(null, '', `${id}`)
+							window.history.replaceState(null, '', newUrl)
+						}
 					}
 				})
 			},
