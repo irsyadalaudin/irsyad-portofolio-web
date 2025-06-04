@@ -15,7 +15,6 @@ const Navbar = ({ darkMode, setDarkMode}) => {
 							currentSection = id
 							const newUrl = id === 'home' ? '/' : `${id}`
 							// CHANGE URL WITHOUT RELOADING THE PAGE
-							// window.history.replaceState(null, '', `${id}`)
 							window.history.replaceState(null, '', newUrl)
 						}
 					}
