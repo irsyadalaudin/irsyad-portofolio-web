@@ -2,10 +2,10 @@ const Home = () => {
     return (
         <section id='home' className='h-screen px-8 max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8'>
             <div className='md:w-2/3 space-y-6'>
-                <h1 className='text-4xl md:text-5xl font-bold leading-tight text-gray-800 dark:text-gray-300'>
-                    Hi, I'm <span className='text-indigo-600'>Irsyad Alaudin Hariono</span>
+                <h1 className='text-4xl md:text-5xl font-bold leading-tight text-gray-800 dark:text-gray-100'>
+                    Hi, I'm <span className='text-indigo-600 dark:text-indigo-400'>Irsyad Alaudin Hariono</span>
                 </h1>
-                <h2 className='text-2xl text-gray-700 dark:text-gray-200'>
+                <h2 className='text-2xl text-gray-700 dark:text-gray-300'>
                     Fullstack JavaScript Developer (MERN)
                 </h2>
                 <p className='text-gray-600 dark:text-gray-100 text-lg leading-relaxed'>
