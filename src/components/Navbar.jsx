@@ -2,19 +2,24 @@ import { useEffect } from 'react'
 
 const Navbar = ({ darkMode, setDarkMode}) => {
 	useEffect(() => {
+		// SELECT ALL SECTION WITH ID
 		const sections = document.querySelectorAll('section[id]')
 		let currentSection = ''
 
+		// CREATE INTERSECTION OBSERVER
 		const observer = new IntersectionObserver(
 			(entries) => {
 				entries.forEach((entry) => {
+					// CHECK IF SECTION IS IN VIE
 					if (entry.isIntersecting) {
 						const id = entry.target.getAttribute('id')
 
+						// ONLY UPDATE IF SECTION CHANGES
 						if (id !== currentSection) {
 							currentSection = id
+							// SET CLEAN URL BASED ON SECTION
 							const newUrl = id === 'home' ? '/' : `${id}`
-							// CHANGE URL WITHOUT RELOADING THE PAGE
+							// UPDATE URL WITHOUT RELOADING THE PAGE
 							window.history.replaceState(null, '', newUrl)
 						}
 					}
