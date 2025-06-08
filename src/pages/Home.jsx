@@ -17,8 +17,12 @@ const Home = () => {
                     </a>
                 </div>
             </div>
-            <div className='md:w-1/3'>
-                <img src='/my-photo.jpg' alt='Irsyad Alaudin Hariono' className='rounded-full w-60 h-60 object-cover sadow-lg' />
+            <div className='flex justify-center md:w-1/3'>
+                <img 
+                    src='https://res.cloudinary.com/dnuy2eod4/image/upload/v1749353742/portofolio-web/nulnhw0dlkohxftj5uvz.jpg'
+                    alt='Portrait of Irsyad Alaudin Hariono, Fullstack Developer'
+                    className='rounded-full w-80 h-80 object-cover shadow-lg border-4'
+                />
             </div>
         </section>
     )
