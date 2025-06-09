@@ -8,9 +8,15 @@ import TechOverview from './components/TechOverview'
 import Home from './pages/Home'
 
 const App = () => {
-	const [darkMode, setDarkMode] = useState(false)
+	// CHECK localStorage ON FIRST LOAD
+	// const [darkMode, setDarkMode] = useState(false)
+	const [darkMode, setDarkMode] = useState(() => {
+		const saved = localStorage.getItem('darkMode')
+		return saved === 'true'
+	})
 
 	useEffect(() => {
+		localStorage.setItem('darkMode', darkMode)
 		if (darkMode) {
 			document.documentElement.classList.add('dark')
 		} else {
