@@ -9,6 +9,7 @@ import Home from './pages/Home'
 
 const App = () => {
 	// CHECK localStorage ON FIRST LOAD
+	// IF 'darkMode' IS SAVED AS 'true', ENABLE DARK MODE BY DEFAULT
 	const [darkMode, setDarkMode] = useState(() => {
 		const saved = localStorage.getItem('darkMode')
 		return saved === 'true'
